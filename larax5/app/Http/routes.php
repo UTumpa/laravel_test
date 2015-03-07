@@ -23,3 +23,4 @@ Route::controllers([
 Route::get('/article', 'ArticleController@index1');
 Route::get('/article/create', 'ArticleController@create');
 Route::get('/rating/create', 'RatingController@create');
+Route::resource('Vote', 'VoterController');
